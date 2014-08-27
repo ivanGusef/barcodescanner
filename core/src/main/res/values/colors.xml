@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="viewfinder_mask">#CC000000</color>
-    <color name="viewfinder_laser">#ffcc0000</color>
     <color name="viewfinder_border">#ffcc0000</color>
-    <!--<color name="viewfinder_border">#ffafed44</color>-->
 </resources>
