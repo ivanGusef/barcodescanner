@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/viewfinder_mask"
+        android:padding="@dimen/viewfinder_border_padding"
+        android:gravity="bottom|center_horizontal"
+        android:textColor="@android:color/white"
+        android:id="@+id/description_text_view"/>
+
+    <me.dm7.barcodescanner.core.CaptureView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:id="@+id/capture_view"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/viewfinder_mask"
+        android:padding="@dimen/viewfinder_border_padding"
+        android:gravity="top|center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/result_text_view"/>
+</merge>

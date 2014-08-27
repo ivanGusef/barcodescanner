@@ -17,4 +17,6 @@
     <string name="choose_formats">Choose Formats</string>
     <string name="ok_button">OK</string>
     <string name="cancel_button">Cancel</string>
+    <string name="sample_description_text">Наведите камеру на штрих-код почтового идентификатора так, чтобы он полностью поместился в красную рамку:</string>
+    <string name="sample_result_text">Некорректный идентификатор</string>
 </resources>

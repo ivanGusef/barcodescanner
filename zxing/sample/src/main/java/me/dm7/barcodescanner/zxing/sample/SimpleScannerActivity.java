@@ -15,6 +15,8 @@ public class SimpleScannerActivity extends ActionBarActivity implements ZXingSca
     public void onCreate(Bundle state) {
         super.onCreate(state);
         mScannerView = new ZXingScannerView(this);
+        mScannerView.setDescriptionText(R.string.sample_description_text);
+        mScannerView.setResultText(R.string.sample_result_text);
         setContentView(mScannerView);
     }
 
